@@ -1,3 +1,4 @@
+workspace = { members = [ "src/lessons/12/bar","src/lessons/12/foo"] }
 # https://doc.rust-lang.org/cargo/reference/config.html
 [package]
 name = "rust"
