@@ -1,7 +1,7 @@
 /// Lessons "14.4 Bounds"
 /// https://doc.rust-lang.org/rust-by-example/generics/bounds.html
 
-// When working iwth generics, the type parameters often must use traits as "bounds" to stipulate what
+// When working with generics, the type parameters often must use traits as "bounds" to stipulate what
 // functionality a type implements. For example, the following example uses the trait `Display` to print
 // and so it requires T to be bound by Display; T MUST implement Display.
 
