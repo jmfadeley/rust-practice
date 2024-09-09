@@ -1,7 +1,7 @@
 /// Lessons "15.2 Ownership and Moves"
 /// https://doc.rust-lang.org/rust-by-example/scope/move.html
  
-/* Because variables are in charge of freeing hteir own resources, resources can only have one owner.
+/* Because variables are in charge of freeing their own resources, resources can only have one owner.
 This prevents resources from being freed more than once. Note that not all variables own resources (references).
 
 When doing assignments ie let x = 7 or passing funciton arguments by value (foo(x)) the ownership of the resources
